@@ -1,0 +1,45 @@
+
+
+#app{
+    background:url('../images/bg.jpg') no-repeat  ;
+    background-position: center center ;
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+    padding: 50px 0;
+    
+}
+.container{
+    width:90%;
+    margin:0 auto;
+}
+.header__main{
+    /* display: flex; */
+    width:100%;
+    text-align:center;
+}
+.meme{
+    background: url('../images/textBirtDay.gif');
+}
+footer{
+    /* position: absolute; */
+    /* bottom: 10%; */
+    /* left: 50%; */
+    /* transform: translateY( -10%); */
+    margin-top: 100px ;
+    width:100%;
+}
+.footer__content{
+    text-align: center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.header__text{
+    color: pink;
+    font-size: 25px;
+    
+}
+
